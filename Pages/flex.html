@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style1.css" media="(min-width: 600px)" /> -->
+    <link rel="preconnect" href="http://localhost:3000/" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Flexbox Examples</h1>
+    
+    <!-- Example 1: Basic Flex Container -->
+    <section class="example">
+      <h2>Basic Flex Container (Horizontal)</h2>
+      <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+      </div>
+    </section>
+
+    <!-- Example 2: Flex Direction Column -->
+    <section class="example">
+      <h2>Flex Direction: Column</h2>
+      <div class="flex-container column">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+      </div>
+    </section>
+
+    <!-- Example 3: Justify Content -->
+    <section class="example">
+      <h2>Justify Content: Space Between</h2>
+      <div class="flex-container space-between">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+      </div>
+    </section>
+
+    <!-- Example 4: Align Items -->
+    <section class="example">
+      <h2>Align Items: Center</h2>
+      <div class="flex-container align-center">
+        <div class="flex-item" style="height: 60px;">Tall</div>
+        <div class="flex-item" style="height: 40px;">Short</div>
+        <div class="flex-item" style="height: 80px;">Taller</div>
+      </div>
+    </section>
+
+    <!-- Example 5: Flex Wrap -->
+    <section class="example">
+      <h2>Flex Wrap</h2>
+      <div class="flex-container flex-wrap">
+        <div class="flex-item wide">Item 1</div>
+        <div class="flex-item wide">Item 2</div>
+        <div class="flex-item wide">Item 3</div>
+        <div class="flex-item wide">Item 4</div>
+        <div class="flex-item wide">Item 5</div>
+      </div>
+    </section>
+
+    <!-- Example 6: Flex Grow -->
+    <section class="example">
+      <h2>Flex Grow</h2>
+      <div class="flex-container">
+        <div class="flex-item">Normal</div>
+        <div class="flex-item grow">I grow to fill space!</div>
+        <div class="flex-item">Normal</div>
+      </div>
+    </section>
+
+    <script src="javascript1.js"></script>
+  </body>
+</html>

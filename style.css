@@ -1,11 +1,113 @@
-.circle {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background-color: black;
-    float: left;
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.heading {
-    clear: right;
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Navigation Menu */
+.page-nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.page-nav button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.page-nav button:hover {
+    background-color: #45a049;
+}
+
+#content-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.example {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Flex Container Styles */
+.flex-container {
+    display: flex;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+/* Flex Items */
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Flex Direction: Column */
+.flex-container.column {
+    flex-direction: column;
+}
+
+/* Justify Content: Space Between */
+.flex-container.space-between {
+    justify-content: space-between;
+}
+
+/* Align Items: Center */
+.flex-container.align-center {
+    align-items: center;
+}
+
+/* Flex Wrap */
+.flex-container.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item.wide {
+    width: 200px;
+}
+
+/* Flex Grow */
+.flex-item.grow {
+    flex-grow: 1;
+    background-color: #2196F3;
 }
