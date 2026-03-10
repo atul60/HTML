@@ -1,0 +1,50 @@
+
+/* Flex Container Styles */
+.flex-container {
+    display: flex;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+/* Flex Items */
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Flex Direction: Column */
+.flex-container.column {
+    flex-direction: column;
+}
+
+/* Justify Content: Space Between */
+.flex-container.space-between {
+    justify-content: space-between;
+}
+
+/* Align Items: Center */
+.flex-container.align-center {
+    align-items: center;
+}
+
+/* Flex Wrap */
+.flex-container.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item.wide {
+    width: 200px;
+}
+
+/* Flex Grow */
+.flex-item.grow {
+    flex-grow: 1;
+    background-color: #2196F3;
+}
